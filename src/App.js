@@ -31,7 +31,7 @@ function App() {
         </Route>
 
         <Route>
-          <div>Not found</div>
+          <div>Error 404</div>
         </Route>
       </Switch>
     </ThemeProvider>
