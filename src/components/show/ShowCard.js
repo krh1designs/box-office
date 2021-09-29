@@ -20,7 +20,7 @@ const ShowCard = ({ id, image, name, summary, onStarClick, isStarred }) => {
       <p>{summaryAsText}</p>
 
       <div className="btns">
-        <Link to={`/show/${id}`}>Read more</Link>
+        <Link to={`/show/${id}`}>Tell me more</Link>
         <button type="button" onClick={() => onStarClick(id, isStarred)}>
           <Star active={isStarred} />
         </button>

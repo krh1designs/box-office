@@ -5,7 +5,7 @@ export const SearchInput = styled.input`
   font-family: 'Roboto', sans-serif;
   width: 200px;
   margin: auto;
-  outline: none;
+  outline: groove;
   padding: 13px 15px;
   border: 1px solid #dbdbdb;
   box-shadow: 0px 0px 10px 0px rgba(219, 219, 219, 0.5);
@@ -34,13 +34,13 @@ export const SearchButtonWrapper = styled.div`
   margin-bottom: 35px;
 
   button {
-    color: #fff;
+    color: #000;
     background-color: ${({ theme }) => theme.mainColors.blue};
     margin: auto;
     padding: 10px 50px;
     font-size: 15px;
-    border: none;
-    outline: none;
+    border: 3px;
+    outline: double;
     border-radius: 12px;
     &:hover {
       cursor: pointer;

@@ -6,7 +6,7 @@ const RadioWrapper = styled.label`
   position: relative;
   padding-left: 25px;
   cursor: pointer;
-  font-size: 13px;
+  font-size: 14px;
   user-select: none;
   font-weight: 700;
   line-height: 1.65;
@@ -24,13 +24,13 @@ const RadioWrapper = styled.label`
     height: 16px;
     width: 16px;
     background-color: #fff;
-    border: 2px solid ${({ theme }) => theme.mainColors.blue};
+    border: 3px solid ${({ theme }) => theme.mainColors.red};
     border-radius: 50%;
   }
 
   input:checked ~ span {
-    background-color: #fff;
-    border: 2px solid ${({ theme }) => theme.mainColors.blue};
+    background-color: #000;
+    border: 3px solid ${({ theme }) => theme.mainColors.red};
   }
 
   span:after {

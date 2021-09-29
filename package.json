@@ -1,5 +1,5 @@
 {
-  "homepage": "https://shelooks16.github.io/box-office",
+  "homepage": "https://krh1designs.github.io/box-office",
   "name": "box-office",
   "version": "0.1.0",
   "private": true,
@@ -25,8 +25,9 @@
     "format": "prettier --write src/**/*.js",
     "format:lint": "npm run format && npm run lint",
     "clear": "rimraf build",
+    "deploy": "gh-pages -d build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

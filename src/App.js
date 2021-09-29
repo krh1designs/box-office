@@ -8,8 +8,8 @@ import Show from './pages/Show';
 
 const theme = {
   mainColors: {
-    blue: '#2400ff',
-    gray: '#c6c6c6',
+    purple: '#252525',
+    orange: '#c66666',
     dark: '#353535',
   },
 };
